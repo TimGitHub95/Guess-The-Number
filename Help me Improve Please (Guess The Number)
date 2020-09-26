@@ -8,6 +8,7 @@ win = True
 #Inputting a number
 while win==True:
     Number = input("Please tell me the number you are thinking of, between 1-100: ")
+#Outcomes
     if Guess == int(Number):
         print("Congratulations, you are correct!")
         break
